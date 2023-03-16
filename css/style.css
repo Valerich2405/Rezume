@@ -106,7 +106,7 @@
         width: 217px;
         height: 36px;
         left: 0px;
-        top: 591px;
+        top: 606px;
         
         background: #FFFFFF;}
         .contacts_title{
@@ -115,14 +115,29 @@
             height: 26px;
             left: 26px;
             top: 5px;
-            
+
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
             line-height: 24px;
-            
+
             color: #4DB6AC;}
+            .phone_picture{position: absolute;
+                width: 30px;
+                height: 36.21px;
+                left: 33px;
+                top: 667px;}
+                .email_picture{position: absolute;
+                    width: 44px;
+                    height: 35.8px;
+                    left: 26px;
+                    top: 715px;}
+                    .place_picture{position: absolute;
+                        width: 40px;
+                        height: 40.86px;
+                        left: 28px;
+                        top: 763px;}
             .contacts_phone{position: absolute;
                 width: 132px;
                 height: 16px;
@@ -173,3 +188,137 @@
         left: 233px;
         top: 0px;
     }
+    .name{
+        position: absolute;
+        width: 270px;
+        height: 36px;
+        left: 31px;
+        top: 23px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36px;
+
+        color: #4DB6AC;
+    }
+    .post{
+        position: absolute;
+width: 171px;
+height: 19px;
+left: 34px;
+top: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #99A1A4;
+    }
+    .work_experience_square{position: absolute;
+        width: 329px;
+        height: 36px;
+        left: 33px;
+        top: 114px;
+        
+        background: #4DB6AC;}
+        .work_experience_title{position: absolute;
+            width: 172px;
+            height: 24px;
+            left: 3px;
+            top: 6px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            
+            color: #FFFFFF;}
+            .work_experience_body{position: absolute;
+                width: 306px;
+                height: 271px;
+                left: 36px;
+                top: 173px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                
+                color: rgba(30, 30, 30, 0.78);}
+                .education_square{position: absolute;
+                    width: 329px;
+                    height: 36px;
+                    left: 33px;
+                    top: 467px;
+                    
+                    background: #4DB6AC;  
+                }
+                .education_title{position: absolute;
+                    width: 105px;
+                    height: 24px;
+                    left: 3px;
+                    top: 6px;
+                    
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    
+                    color: #FFFFFF;}
+                    .education_body{position: absolute;
+                        width: 305px;
+                        height: 102px;
+                        left: 34px;
+                        top: 526px;
+                        
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        
+                        color: rgba(30, 30, 30, 0.78);}
+                        .skills_square{position: absolute;
+                            width: 329px;
+                            height: 36px;
+                            left: 34px;
+                            top: 651px;
+                            
+                            background: #4DB6AC;}
+                            .skills_title{position: absolute;
+                                width: 59px;
+                                height: 24px;
+                                left: 3px;
+                                top: 6px;
+                                
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                text-align: center;
+                                
+                                color: #FFFFFF;}
+                                .skills_body{position: absolute;
+                                    width: 305px;
+                                    height: 85px;
+                                    left: 36px;
+                                    top: 710px;
+                                    
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    
+                                    color: rgba(30, 30, 30, 0.78);}
