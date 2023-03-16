@@ -1,0 +1,175 @@
+  /* inter-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v12-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/inter-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inter-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inter-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inter-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inter-v12-latin-300.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+    html{
+        box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+ .aside{
+    position: absolute;
+    width: 232px;
+    height: 842px;
+    left: 0px;
+    top: 0px;
+    background-color: #4DB6AC;
+}
+ .photo{
+    position: absolute;
+    width: 187px;
+    height: 182px;
+    left: 20px;
+    top: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 91px;
+}
+.photo_pic{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .personal_details{
+    box-sizing: border-box;
+  }
+.personal_details_square{
+    position: absolute;
+    width: 217px;
+    height: 36px;
+    left: 0px;
+    top: 228px;  
+    background: #FFFFFF;
+}
+.personal_details_title{
+    position: absolute;
+    width: 166px;
+    height: 26px;
+    left: 26px;
+    top: 5px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4DB6AC;
+}
+.personal_details_body{
+    position: absolute;
+    width: 182px;
+    height: 289px;
+    left: 26px;
+    top: 282px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;}
+    .contscts_square{
+        position: absolute;
+        width: 217px;
+        height: 36px;
+        left: 0px;
+        top: 591px;
+        
+        background: #FFFFFF;}
+        .contacts_title{
+            position: absolute;
+            width: 166px;
+            height: 26px;
+            left: 26px;
+            top: 5px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            
+            color: #4DB6AC;}
+            .contacts_phone{position: absolute;
+                width: 132px;
+                height: 16px;
+                left: 79px;
+                top: 677px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                
+                color: #FFFFFF;
+            }
+            .contacts_email{
+                position: absolute;
+                width: 140px;
+                height: 17px;
+                left: 79px;
+                top: 724px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+            .contacts_place{
+                position: absolute;
+                width: 140px;
+                height: 34px;
+                left: 79px;
+                top: 766px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+
+                color: #FFFFFF;
+            }
+    .main{
+        position: absolute;
+        width: 362px;
+        height: 842px;
+        left: 233px;
+        top: 0px;
+    }
