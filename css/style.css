@@ -1,363 +1,388 @@
 /* inter-300 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/inter-v12-latin-300.eot"); /* IE9 Compat Modes */
-    src: url("../fonts/inter-v12-latin-300.eot?#iefix")
-        format("embedded-opentype"),
-      /* IE6-IE8 */ url("../fonts/inter-v12-latin-300.woff2") format("woff2"),
-      /* Super Modern Browsers */ url("../fonts/inter-v12-latin-300.woff")
-        format("woff"),
-      /* Modern Browsers */ url("../fonts/inter-v12-latin-300.ttf")
-        format("truetype"),
-      /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-300.svg#Inter")
-        format("svg"); /* Legacy iOS */
-  }
-  /* inter-regular - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
-    src: url("../fonts/inter-v12-latin-regular.eot?#iefix")
-        format("embedded-opentype"),
-      /* IE6-IE8 */ url("../fonts/inter-v12-latin-regular.woff2") format("woff2"),
-      /* Super Modern Browsers */ url("../fonts/inter-v12-latin-regular.woff")
-        format("woff"),
-      /* Modern Browsers */ url("../fonts/inter-v12-latin-regular.ttf")
-        format("truetype"),
-      /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-regular.svg#Inter")
-        format("svg"); /* Legacy iOS */
-  }
-  /* inter-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/inter-v12-latin-700.woff2") format("woff2"),
-      /* Chrome 36+, Opera 23+, Firefox 39+ */
-        url("../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  .aside {
-    position: absolute;
-    width: 232px;
-    height: 842px;
-    left: 0px;
-    top: 0px;
-    background-color: #4db6ac;
-  }
-  .photo {
-    position: absolute;
-    width: 187px;
-    height: 182px;
-    left: 20px;
-    top: 20px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 91px;
-  }
-  .photo_pic {
-    width: auto;
-    height: 100%;
-    margin: 0 auto;
-  }
-  .personal_details {
-    box-sizing: border-box;
-  }
-  .personal_details_square {
-    position: absolute;
-    width: 217px;
-    height: 36px;
-    left: 0px;
-    top: 228px;
-    background: #ffffff;
-  }
-  .personal_details_title {
-    position: absolute;
-    width: 166px;
-    height: 26px;
-    left: 26px;
-    top: 5px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #4db6ac;
-  }
-  .personal_details_body {
-    position: absolute;
-    width: 182px;
-    height: 289px;
-    left: 26px;
-    top: 282px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #ffffff;
-  }
-  .contacts_square {
-    position: absolute;
-    width: 217px;
-    height: 36px;
-    left: 0px;
-    top: 606px;
-  
-    background: #ffffff;
-  }
-  .contacts_title {
-    position: absolute;
-    width: 166px;
-    height: 26px;
-    left: 26px;
-    top: 5px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-  
-    color: #4db6ac;
-  }
-  .phone_picture {   
-    position: absolute;
-    width: 30px;
-    height: 36.21px;
-    left: 33px;
-    top: 667px; 
-  }
-  .email_picture {
-    position: absolute;
-    width: 44px;
-    height: 35.8px;
-    left: 26px;
-    top: 715px;
-  }
-  .place_picture {
-    position: absolute;
-    width: 40px;
-    height: 40.86px;
-    left: 28px;
-    top: 763px;
-  }
-  .contacts_phone {
-    position: absolute;
-    width: 132px;
-    height: 16px;
-    left: 79px;
-    top: 677px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-  
-    color: #ffffff;
-  }
-  .contacts_email {
-    position: absolute;
-    width: 140px;
-    height: 17px;
-    left: 79px;
-    top: 724px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #ffffff;
-  }
-  .contacts_place {
-    position: absolute;
-    width: 140px;
-    height: 34px;
-    left: 79px;
-    top: 766px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-  
-    color: #ffffff;
-  }
-  .main {
-    border-right: 1px solid black;
-    position: absolute;
-    width: 362px;
-    height: 842px;
-    left: 233px;
-    top: 0px;
-  }
-  .name {
-    position: absolute;
-    width: 270px;
-    height: 36px;
-    left: 31px;
-    top: 23px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36px;
-  
-    color: #4db6ac;
-  }
-  .post {
-    position: absolute;
-    width: 171px;
-    height: 19px;
-    left: 34px;
-    top: 78px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-  
-    color: #99a1a4;
-  }
-  .work_experience_square {
-    position: absolute;
-    width: 329px;
-    height: 36px;
-    left: 33px;
-    top: 114px;
-  
-    background: #4db6ac;
-  }
-  .work_experience_title {
-    position: absolute;
-    width: 172px;
-    height: 24px;
-    left: 3px;
-    top: 6px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #ffffff;
-  }
-  .work_experience_body {
-    position: absolute;
-    width: 306px;
-    height: 271px;
-    left: 36px;
-    top: 173px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-  
-    color: rgba(30, 30, 30, 0.78);
-  }
-  .education_square {
-    position: absolute;
-    width: 329px;
-    height: 36px;
-    left: 33px;
-    top: 467px;
-  
-    background: #4db6ac;
-  }
-  .education_title {
-    position: absolute;
-    width: 105px;
-    height: 24px;
-    left: 3px;
-    top: 6px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #ffffff;
-  }
-  .education_body {
-    position: absolute;
-    width: 305px;
-    height: 102px;
-    left: 34px;
-    top: 526px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-  
-    color: rgba(30, 30, 30, 0.78);
-  }
-  .skills_square {
-    position: absolute;
-    width: 329px;
-    height: 36px;
-    left: 34px;
-    top: 651px;
-  
-    background: #4db6ac;
-  }
-  .skills_title {
-    position: absolute;
-    width: 59px;
-    height: 24px;
-    left: 3px;
-    top: 6px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #ffffff;
-  }
-  .skills_body {
-    position: absolute;
-    width: 305px;
-    height: 85px;
-    left: 36px;
-    top: 710px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-  
-    color: rgba(30, 30, 30, 0.78);
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/inter-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/inter-v12-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-300.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/inter-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-regular.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v12-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/inter-v12-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/inter-v12-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-800.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.block{
+  max-width: 595px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+.aside {
+  border-left: 1px solid black;
+  position: absolute;
+  width: 232px;
+  height: 842px;
+  left: 0px;
+  top: 0px;
+  background-color: #4db6ac;
+}
+.photo {
+  position: absolute;
+  width: 187px;
+  height: 182px;
+  left: 20px;
+  top: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 91px;
+}
+.photo_pic {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+.personal_details {
+  box-sizing: border-box;
+}
+.personal_details_square {
+  position: absolute;
+  width: 217px;
+  height: 36px;
+  left: 0px;
+  top: 228px;
+  background: #ffffff;
+}
+.personal_details_title {
+  position: absolute;
+  width: 166px;
+  height: 26px;
+  left: 26px;
+  top: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4db6ac;
+}
+.personal_details_body {
+  position: absolute;
+  width: 182px;
+  height: 289px;
+  left: 26px;
+  top: 282px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.contacts_square {
+  position: absolute;
+  width: 217px;
+  height: 36px;
+  left: 0px;
+  top: 606px;
+
+  background: #ffffff;
+}
+.contacts_title {
+  position: absolute;
+  width: 166px;
+  height: 26px;
+  left: 26px;
+  top: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #4db6ac;
+}
+.phone_picture {   
+  position: absolute;
+  width: 30px;
+  height: 36.21px;
+  left: 33px;
+  top: 667px; 
+}
+.email_picture {
+  position: absolute;
+  width: 44px;
+  height: 35.8px;
+  left: 26px;
+  top: 715px;
+}
+.place_picture {
+  position: absolute;
+  width: 40px;
+  height: 40.86px;
+  left: 28px;
+  top: 763px;
+}
+.contacts_phone {
+  position: absolute;
+  width: 132px;
+  height: 16px;
+  left: 79px;
+  top: 677px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.contacts_email {
+  position: absolute;
+  width: 140px;
+  height: 17px;
+  left: 79px;
+  top: 724px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.contacts_place {
+  position: absolute;
+  width: 140px;
+  height: 34px;
+  left: 79px;
+  top: 766px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.main {
+  border-right: 1px solid black;
+  position: absolute;
+  width: 362px;
+  height: 842px;
+  left: 233px;
+  top: 0px;
+}
+.name {
+  position: absolute;
+  width: 270px;
+  height: 36px;
+  left: 31px;
+  top: 23px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #4db6ac;
+}
+.post {
+  position: absolute;
+  width: 171px;
+  height: 19px;
+  left: 34px;
+  top: 78px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #99a1a4;
+}
+.work_experience_square {
+  position: absolute;
+  width: 329px;
+  height: 36px;
+  left: 33px;
+  top: 114px;
+
+  background: #4db6ac;
+}
+.work_experience_title {
+  position: absolute;
+  width: 172px;
+  height: 24px;
+  left: 3px;
+  top: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.work_experience_body {
+  position: absolute;
+  width: 306px;
+  height: 271px;
+  left: 36px;
+  top: 173px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(30, 30, 30, 0.78);
+}
+.education_square {
+  position: absolute;
+  width: 329px;
+  height: 36px;
+  left: 33px;
+  top: 467px;
+
+  background: #4db6ac;
+}
+.education_title {
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  left: 3px;
+  top: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.education_body {
+  position: absolute;
+  width: 305px;
+  height: 102px;
+  left: 34px;
+  top: 526px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(30, 30, 30, 0.78);
+}
+.skills_square {
+  position: absolute;
+  width: 329px;
+  height: 36px;
+  left: 34px;
+  top: 651px;
+
+  background: #4db6ac;
+}
+.skills_title {
+  position: absolute;
+  width: 59px;
+  height: 24px;
+  left: 3px;
+  top: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.skills_body {
+  position: absolute;
+  width: 305px;
+  height: 85px;
+  left: 36px;
+  top: 710px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(30, 30, 30, 0.78);
+}
